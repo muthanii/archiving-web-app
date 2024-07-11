@@ -79,6 +79,7 @@ def submit(patient):
     ])
 
 def expander():
-  with st.expander():
+  with st.expander("Contact"):
     st.markdown("*Made by Muthana Ali from Warith International Cancer Institute IT Department.*")
+    st.write("+964 781 390 9041")
     st.link_button("Contact", "t.me/muthanii")
