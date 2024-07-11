@@ -1,10 +1,10 @@
-from frontend import get_patient, submit, sidebar
+from frontend import get_patient, submit, expander
 
 
 def main():
   patient = get_patient()
   submit(patient)
-  sidebar()
+  expander()
 
 
 if __name__ == "__main__":

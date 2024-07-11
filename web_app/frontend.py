@@ -78,6 +78,7 @@ def submit(patient):
       patient.procedure
     ])
 
-def sidebar():
-  st.sidebar.markdown("*Made by Muthana Ali from Warith International Cancer Institute IT Department.*")
-  st.sidebar.link_button("Contact", "t.me/muthanii")
+def expander():
+  with st.expander():
+    st.markdown("*Made by Muthana Ali from Warith International Cancer Institute IT Department.*")
+    st.link_button("Contact", "t.me/muthanii")
