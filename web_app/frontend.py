@@ -1,8 +1,8 @@
 import datetime
 import streamlit as st
-from web_app.Patient import Patient
-from web_app.backend import worksheet
-from web_app.lists import *
+from Patient import Patient
+from backend import worksheet
+from lists import *
 
 
 def get_patient():
@@ -40,7 +40,7 @@ def get_patient():
   procedure = st.text_input("Procedure")
 
   patient = Patient(name, mrn, sex, dob, age, doctor, icd_10_code, diagnosis_non_cancer, note, icd_0_code, diagnosis_cancer, comment, icd_0_code_morphology, morphology, department, governorate, district, nationality, occupation, addmission_date, discharge_date, status, t, n, m, stage, grade, extent, procedure)
-
+  
   return patient
 
 
@@ -78,3 +78,6 @@ def submit(patient):
       patient.procedure
     ])
 
+def sidebar():
+  st.sidebar.markdown("*Made by Muthana Ali from Warith International Cancer Institute IT Department.*")
+  st.sidebar.link_button("Contact", "t.me/muthanii")
