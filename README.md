@@ -8,7 +8,7 @@ The frontend will act as the *data collector* from the user input and and the cl
 
 ## Example
 Below is how the web application should look like:
-![Result of the web application.](result.png)
+![Result of the web application.](img/result.png)
 
 ## Usage
 To use this repo and edit it to your own liking, you can do the following:
