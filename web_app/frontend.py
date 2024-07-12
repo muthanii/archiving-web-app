@@ -46,6 +46,7 @@ def get_patient():
 
 def submit(patient):
   if st.button("Submit Data", type="primary", use_container_width=True):
+    st.sucess("Patient Data Successfully Added!")
     worksheet.append_row([
       patient.name,
       patient.sex,
