@@ -16,10 +16,12 @@ Below is how the web application should look like:
 
 To use this repo and edit it to your own liking, you can do the following:
 
-```bash
+```cmd
 git clone https://github.com/muthanii/archiving-web-app.git
+python -m venv .venv
 .\venv\Scripts\activate
 pip install -r .\requirements.txt
+streamlit run .\web_app\main.py
 ```
 
 ## Useful links
