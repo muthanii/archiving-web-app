@@ -16,7 +16,7 @@ Below is how the web application should look like:
 
 To use this repo and edit it to your own liking, you can do the following:
 
-```powershell
+```bash
 git clone https://github.com/muthanii/archiving-web-app.git
 .\venv\Scripts\activate
 pip install -r .\requirements.txt
